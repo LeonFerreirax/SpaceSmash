@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1178489118075486}
+  m_IsPrefabAsset: 1
+--- !u!1 &1178489118075486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4394709711953154}
+  - component: {fileID: 114414124884570172}
+  m_Layer: 0
+  m_Name: SupernovaGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4394709711953154
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178489118075486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.695684, y: -8.87809, z: 8.268291}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114414124884570172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178489118075486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1538b8d1eac71b44f810bfd563dd531d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nebulas:
+  - {fileID: 1972736095717048, guid: 37fa1a4734c7f5648abaeb04ae3763f9, type: 2}
+  - {fileID: 1857398240238070, guid: c0c3af1574b81a148917f82e61956011, type: 2}
+  - {fileID: 1421089738561216, guid: 881cc153053f985448ea586f58ec545e, type: 2}
+  - {fileID: 1845802205982588, guid: 690d654049c11ab4a859320254effdbe, type: 2}
+  - {fileID: 1523981194966524, guid: 503fc24272afa87489240633a1e358cb, type: 2}
